@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soumen portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6b457f7098.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo1.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Website Design</p>
+            <h1>Hi, I'm <span>soumen</span><br> Mohanta From India</h1>
+        </div>
+    </div>
+</div>
+<!-- --------------about---------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/my_pic.png" alt="it's me">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello everyone my name is soumen mohanta and i would like to add some key points about myself. <br>
+                     . To be associated with an organization which
+                    provides challenging work environment and
+                    proving my excellence at every step is my long
+                    term career goal.<br>
+                    . I am always energetic and eager to learn new
+                    skills, Even though I take my work seriously.<br>
+                    . I do have a good sense of humor.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Codeing Languge </span><br> Python*, C, Html, Css, Java script  </li>
+                        <li><span>Web Development</span><br>Designing Website like portfolio, tik-tak-to game, Social media site </li>
+                        <li><span>Gui development</span><br>Designing web/app interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>current</span><br>i don't have any kind of industrial experience yet but i ready to work any company if my skills are match thos position</li>
+                        <!-- <li><span>2017-2019</span><br>Designing web/app interfaces at xyz pvt</li> -->
+                        <!-- <li><span>2016-2017</span><br>Designing web/app interfaces abcd LLC</li> -->
+                    </ul>
+                </div>    
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-current</span><br>Engeering at university institute of technology</li>
+                        <li><span>2018</span><br>12Th at kasemnagar N.A.J. high school</li>
+                        <li><span>2016</span><br>10Th at keleti G.A. vidyapith</li>
+
+                    </ul>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------services---------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                <h2>Web Design</h2>
+                <p>Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Developer</h2>
+                <p> Software developer, a person who writes computer programs
+                   .Web developer, a programmer who specializes in, or is specifically engaged in, the development of World Wide Web applications</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h2>Gui-App Design</h2>
+                <p> graphical user interface builder (or GUI builder), also known as GUI designer , is a software development tool that simplifies the creation of GUIs by allowing the designer to arrange graphical control elements .</p>
+                <a href="#">Learn more</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- ------portfolio----- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/mywork1.png" alt="work-1">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>it's my first website project ,here i know how a website are made and how it work </p>
+                    <a href="#"><i class="fa-solid fa-paperclip"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/mywork2.png" alt="work-2">
+                <div class="layer">
+                    <h3>Coder</h3>
+                    <p>usually i code for build any website and gui-application , some time for problem solving </p>
+                    
+                    <a href="#"><i class="fa-solid fa-paperclip"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/mywork3.png" alt="work-3">
+                <div class="layer">
+                    <h3>Music player App</h3>
+                    <p>here you can see modren gui based music player desktop application </p>
+                    <a href="#"><i class="fa-solid fa-paperclip"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -------contact------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>ee20196045@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/soumen.mohanta.374"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/soumenmohanta10"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/soumen.404/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/soumen-mohanta-151982238/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/soumen_cv.pdf" download class="btn btn2">Downlod Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © soumen.<i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+
+    }
+</script> 
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz181W0fZiig89JXFxMMtVMXy7KseokJwb14xp9LqwHOIuOymn1W36dz17V5PfuVmJF/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>  
+</body>
+</html>
